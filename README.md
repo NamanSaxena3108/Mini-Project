@@ -17,6 +17,10 @@ Before running this project, ensure you have the following installed:
 *  PyAutoGUI (for software control)
 ### Screenshot
 ![Proj](https://github.com/user-attachments/assets/2af190f1-22c7-4dfb-8549-3c3dda4a1ca4)
+![proj1](https://github.com/user-attachments/assets/0f1c5b0e-c331-4782-80c9-856cd026a76b)
+![proj2](https://github.com/user-attachments/assets/c92aed1b-655b-406e-8449-63442e5811c9)
+![proj3](https://github.com/user-attachments/assets/9f629a87-3e6d-4f47-a342-648473e032ae)
+
 ### Contributing
 Contributions are welcome! To contribute:
 
