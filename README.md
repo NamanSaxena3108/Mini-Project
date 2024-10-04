@@ -16,7 +16,7 @@ Before running this project, ensure you have the following installed:
 *  MediaPipe (for hand-tracking and pose estimation)
 *  PyAutoGUI (for software control)
 ### Screenshot
-
+![Proj](https://github.com/user-attachments/assets/2af190f1-22c7-4dfb-8549-3c3dda4a1ca4)
 ### Contributing
 Contributions are welcome! To contribute:
 
