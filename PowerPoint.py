@@ -17,26 +17,26 @@ def recognize_gesture(landmarks):
     pinky_tip = landmarks[20]
 
     # Thumb and Index Finger Point (for starting slideshow)
-    if (thumb_tip.y < landmarks[3].y and  # Thumb extended
-        index_tip.y < landmarks[6].y):  # Pinky bent
+    if (thumb_tip.y < landmarks[3].y and  
+        index_tip.y < landmarks[6].y): 
         return "Thumb and Index Point"
 
     # Thumb and Middle Finger Point (for adding a new slide)
-    if (thumb_tip.y < landmarks[3].y and  # Thumb extended
-        middle_tip.y < landmarks[10].y):  # Pinky bent
+    if (thumb_tip.y < landmarks[3].y and  
+        middle_tip.y < landmarks[10].y):  
         return "Thumb and Middle Finger Point"
 
     # Thumb and Pinky Extended (for adding a new slide)
-    if (thumb_tip.y < landmarks[3].y and  # Thumb extended
-        pinky_tip.y < landmarks[18].y):  # Ring bent
+    if (thumb_tip.y < landmarks[3].y and  
+        pinky_tip.y < landmarks[18].y):  
         return "Thumb and Pinky Extended"
 
     # Pinky Point (for next slide)
-    if (pinky_tip.y < landmarks[18].y):  # Thumb bent
+    if (pinky_tip.y < landmarks[18].y): 
         return "Pinky Point"
 
     # Ring Finger Point (for previous slide)
-    if (ring_tip.y < landmarks[14].y):  # Thumb bent
+    if (ring_tip.y < landmarks[14].y):  
         return "Ring Finger Point"
 
     return "Unknown Gesture"
