@@ -6,7 +6,6 @@ This project allows users to control software using hand gestures. The system le
 1.  Real-Time Gesture Recognition: Detects hand gestures using a webcam and processes them in real-time.
 2.  Customizable Gesture Control: Allows users to define custom gestures to trigger specific actions.
 
-### Installation
 ### Prerequisites
 Before running this project, ensure you have the following installed:
 
@@ -31,5 +30,3 @@ Contributions are welcome! To contribute:
 5.  Push to the branch (git push origin feature-branch).
 6.  Open a pull request.
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
